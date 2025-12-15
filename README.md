@@ -15,7 +15,7 @@ We implemented a **LightGBM regression model** to predict product prices using c
 
 ## 2. Methodology Overview
 
-### 2.1 Problem Analysis
+### Problem Analysis
 
 The task involves predicting prices for a **heterogeneous product catalog** with variable textual descriptions.
 
@@ -39,7 +39,7 @@ The task involves predicting prices for a **heterogeneous product catalog** with
 
    * Stabilizes variance, reduces effect of extreme values, and improves model convergence.
 
-### 2.2 Solution Strategy
+### Solution Strategy
 
 * **Hybrid approach:** Combines **text embeddings (TF-IDF)**, **engineered numeric features**, and **target-encoded features** in a LightGBM regression.
 * **Modeling insights:**
@@ -54,7 +54,7 @@ The task involves predicting prices for a **heterogeneous product catalog** with
 
 ## 3. Model Architecture
 
-### 3.1 Architecture Overview
+### Architecture Overview
 
 ```
 Catalog Content (Text) ------------------------|
@@ -64,7 +64,7 @@ Numeric Features (Word count, Char count, IPQ) |--> Feature Concatenation --> Li
 Target-Encoded Features (Brand_mean, IPQ_mean) |
 ```
 
-### 3.2 Model Components
+### Model Components
 
 **Text Processing Pipeline:**
 
@@ -125,7 +125,7 @@ Target-Encoded Features (Brand_mean, IPQ_mean) |
 
 ## 5. Model Performance
 
-### 5.1 Validation Results
+### Validation Results
 
 * Validation SMAPE: **0.4995**
 * Log-transformed RMSE (training/validation): ~0.35
