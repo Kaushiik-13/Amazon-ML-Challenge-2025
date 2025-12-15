@@ -148,14 +148,9 @@ Target-Encoded Features (Brand_mean, IPQ_mean)|
 The hybrid LightGBM model leverages **text, numeric, and target-encoded features** to predict heterogeneous product prices.
 
 * **Strengths:** Robust for diverse catalog content, interpretable feature importance, easy to retrain.
-* **Limitations:** SMAPE of 0.51 indicates high variability in some product categories.
+* **Limitations:** SMAPE of 0.49 indicates high variability in some product categories.
 * **Future Work:** Integrate richer embeddings (language models), expand numeric features, explore ensemble approaches to further reduce SMAPE.
 
 ---
 
-## Appendix
-
-### A. Code Artefacts
-
-https://drive.google.com/drive/folders/1yuNlrAN2GMuaYwrvDwNQafsqIte6A0AI?usp=sharing 
 
