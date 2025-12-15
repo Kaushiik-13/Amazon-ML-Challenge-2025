@@ -58,10 +58,10 @@ The task involves predicting prices for a **heterogeneous product catalog** with
 
 ```
 Catalog Content (Text) ------------------------|
-                                               |--> Feature Concatenation --> LightGBM --> Log-Price Prediction
-Numeric Features (Word count, Char count, IPQ)|
                                                |
-Target-Encoded Features (Brand_mean, IPQ_mean)|
+Numeric Features (Word count, Char count, IPQ) |--> Feature Concatenation --> LightGBM --> Log-Price Prediction
+                                               |
+Target-Encoded Features (Brand_mean, IPQ_mean) |
 ```
 
 ### 3.2 Model Components
