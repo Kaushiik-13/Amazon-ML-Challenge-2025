@@ -9,7 +9,7 @@
 
 ## 1. Executive Summary
 
-We implemented a **LightGBM regression model** to predict product prices using catalog text. Our solution combines **TF-IDF embeddings**, **numeric features** derived from text, and **target-encoded brand/IPQ features**, achieving a validation SMAPE of 0.51. This hybrid approach allows the model to capture both textual semantics and structured patterns in the dataset.
+We implemented a **LightGBM regression model** to predict product prices using catalog text. Our solution combines **TF-IDF embeddings**, **numeric features** derived from text, and **target-encoded brand/IPQ features**, achieving a validation SMAPE of 0.49. This hybrid approach allows the model to capture both textual semantics and structured patterns in the dataset.
 
 ---
 
